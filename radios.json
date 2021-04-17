@@ -1,0 +1,26 @@
+[
+    {
+      "id": "https://radio.manhag.net/radio/8000/radio.mp3",
+      "album": "راديو صوت الإسلام",
+      "title": "راديو صوت الإسلام",
+      "artist": "راديو صوت الإسلام",
+      "artUri": "https://www.manhag.net/images/listening.png",
+      "thumbUri": "https://www.manhag.net/images/listening.png"
+    },
+    {
+      "id": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/001.mp3",
+      "album": "راديو صوت الإسلام",
+      "title": "سورة الفاتحة",
+      "artist": "راديو صوت الإسلام",
+      "artUri": "https://www.mp3quran.net/uploads/mpa/lg/maknoon-banner-10.png",
+      "thumbUri": "https://www.manhag.net/images/listening.png"
+    },
+    {
+      "id": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/002.mp3",
+      "album": "راديو صوت الإسلام",
+      "title": "سورة البقرة",
+      "artist": "راديو صوت الإسلام",
+      "artUri": "https://www.mp3quran.net/uploads/mpa/lg/maknoon-banner-10.png",
+      "thumbUri": "https://www.manhag.net/images/listening.png"
+    }
+]
