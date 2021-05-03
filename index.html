@@ -54,19 +54,19 @@
 <meta property="og:url" content="http://www.manhag.net/"/>
 
 
-              <script type="text/javascript">
-     list.onclick = function(e) {
-  e.preventDefault();
-
-  var elm = e.target;
-  var audio = document.getElementById('audio');
-
-  var source = document.getElementById('audioSource');
-  source.src = elm.getAttribute('data-value');
-
-  audio.load(); //call this to just preload the audio without playing
-  audio.play(); //call this to play the song right away
-};
+    <script>
+    function loadradio(){
+    
+    var player=document.getElementById('player');
+    var sourceOgg=document.getElementById('player');
+    var sourceMp3=document.getElementById('player');
+    
+    sourceOgg.src='https://radio.manhag.net/radio/8000/radio.mp3';
+    sourceMp3.src='https://radio.manhag.net/radio/8000/radio.mp3';
+    
+   player.load(); //just start buffering (preload)
+   player.play(); //start playing
+}
     </script>
 </head>
 
@@ -94,21 +94,15 @@
 				<!-- </form> -->
 <!-- <iframe src="https://radio.manhag.net/radio/8000/radio.mp3" frameborder="0" allowtransparency="true" style="width: 100%; height: 120px; border: 0;"></iframe>-->
 
-<ul style="list-style: none">
-  <li> 
-    <ul id="list">
-      <li><a href="#" data-value="https://radio.manhag.net/radio/8000/radio.mp3">Death_Becomes_Fur.oga</a></li>
-      <li><a href="#" data-value="https://radio.manhag.net/radio/8030/radio.mp3">Death_Becomes_Fur.mp4</a></li>
-      <li><a href="#" data-value="http://media.w3.org/2010/11/rrs006.oga">rrs006.oga</a></li>
-      <li><a href="#" data-value="http://media.w3.org/2010/05/sound/sound_90.mp3">sound_90.mp3</a></li>
-    </ul>
-  </li>
-</ul>
- 
-<audio id="audio" controls="controls">
-   <source id="audioSource" src="https://radio.manhag.net/radio/8000/radio.mp3" type="audio/mpeg"></source>
-Your browser does not support the audio element.
+ <audio id="player" controls="controls">
+  <source id="sourceOgg" src="" type="audio/ogg" />
+  <source id="sourceMp3" src="" type="audio/mp3" />
+  Your browser does not support the audio element.
 </audio>
+
+<p>
+    <button onclick='loadSong()'> Load "Song1" </button>
+</p>
 			</div>  
 
 		  <div class="clear"> </div>
