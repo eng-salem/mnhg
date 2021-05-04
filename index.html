@@ -55,15 +55,21 @@
 
 
     <script>
-    function loadradio(){
+    function loadradio(id){
     
     var player=document.getElementById('player');
     var sourceOgg=document.getElementById('player');
     var sourceMp3=document.getElementById('player');
-    
+    if (id=1){
     sourceOgg.src='https://radio.manhag.net/radio/8000/radio.mp3';
     sourceMp3.src='https://radio.manhag.net/radio/8000/radio.mp3';
-    
+    }else if (id=2){
+    sourceOgg.src='https://radio.manhag.net/radio/8020/radio.mp3';
+    sourceMp3.src='https://radio.manhag.net/radio/8020/radio.mp3';	
+	}else if (id=3){
+    sourceOgg.src='https://radio.manhag.net/radio/8030/radio.mp3';
+    sourceMp3.src='https://radio.manhag.net/radio/8030/radio.mp3';	
+	}
    player.load(); //just start buffering (preload)
    player.play(); //start playing
 }
@@ -95,13 +101,15 @@
 <!-- <iframe src="https://radio.manhag.net/radio/8000/radio.mp3" frameborder="0" allowtransparency="true" style="width: 100%; height: 120px; border: 0;"></iframe>-->
 
  <audio id="player" controls="controls">
-  <source id="sourceOgg" src="" type="audio/ogg" />
-  <source id="sourceMp3" src="" type="audio/mp3" />
+  <source id="sourceOgg" src="https://radio.manhag.net/radio/8000/radio.mp3" type="audio/ogg" />
+  <source id="sourceMp3" src="https://radio.manhag.net/radio/8000/radio.mp3" type="audio/mp3" />
   Your browser does not support the audio element.
 </audio>
 
 <p>
-    <button onclick='loadradio()'> Load "Song1" </button>
+    <button onclick='loadradio(1)'> الاذاعة العامة </button>
+    <button onclick='loadradio(2)'> الاناشيد </button>
+    <button onclick='loadradio(3)'> الرقية الشرعية </button>
 </p>
 			</div>  
 
