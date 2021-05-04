@@ -147,7 +147,8 @@ padding: 15px 15px 0px;
 letter-spacing:1.6px;
 line-height:22px;
     background: #f5f6f7b8;
-
+margin: 0 auto;
+width: 45%;
 }
 .footer p {
 font-size: 16px;
