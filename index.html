@@ -55,10 +55,7 @@
 
 
     <script>
-	    var player=document.getElementById('player');
-
-	   player.load(); //just start buffering (preload)
-   player.play(); //start playing
+	 
     function loadradio(id){
     
     var player=document.getElementById('player');
@@ -104,7 +101,7 @@
 				<!-- </form> -->
 <!-- <iframe src="https://radio.manhag.net/radio/8000/radio.mp3" frameborder="0" allowtransparency="true" style="width: 100%; height: 120px; border: 0;"></iframe>-->
 
- <audio id="player" controls="controls">
+ <audio id="player" controls="controls" autoplay>
   <source id="sourceOgg" src="https://radio.manhag.net/radio/8000/radio.mp3" type="audio/ogg" />
   <source id="sourceMp3" src="https://radio.manhag.net/radio/8000/radio.mp3" type="audio/mp3" />
   Your browser does not support the audio element.
