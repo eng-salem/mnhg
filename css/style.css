@@ -290,6 +290,7 @@ padding:50px;
 
 }
 .button {
+	    cursor: pointer;
    border: none;
   color: white;
   padding: 15px 32px;
