@@ -60,14 +60,14 @@
     
     var player=document.getElementById('player');
      var sourceMp3=document.getElementById('player');
-    if (id==1){
+    if (id==0){
      sourceMp3.src='https://radio.manhag.net/radio/8000/radio.mp3';
+	}else if (id==1){
+     sourceMp3.src='https://radio.manhag.net/radio/8010/radio.mp3';	
     }else if (id==2){
      sourceMp3.src='https://radio.manhag.net/radio/8020/radio.mp3';	
 	}else if (id==3){
      sourceMp3.src='https://radio.manhag.net/radio/8030/radio.mp3';	
-	}else if (id==4){
-     sourceMp3.src='https://radio.manhag.net/radio/8040/radio.mp3';	
 	}else if (id==5){
      sourceMp3.src='https://radio.manhag.net/radio/8050/radio.mp3';	
 	}
@@ -108,10 +108,10 @@
     <a href="https://www.facebook.com/EmanLive"><img src="./images/facebook.png"></a>
 
 <p>
-    <button onclick='loadradio(1)' class="button" style="background-color: #4CAF50;"> الاذاعة العامة </button>
+    <button onclick='loadradio(0)' class="button" style="background-color: #4CAF50;"> الاذاعة العامة </button>
+    <button onclick='loadradio(1)' class="button"  style="background-color: #4CAF50;"> القرآن الكريم </button>
     <button onclick='loadradio(2)' class="button"  style="background-color: #008CBA;"> الاناشيد </button>
     <button onclick='loadradio(3)' class="button"  style="background-color: #f44336;"> الرقية الشرعية </button>
-    <button onclick='loadradio(4)' class="button"  style="background-color: #4CAF50;"> القرآن الكريم </button>
     <button onclick='loadradio(5)' class="button"  style="background-color: #f44336;"> تفسير الشعراوي </button>
 </p>
 			</div>  
