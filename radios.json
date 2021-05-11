@@ -8,19 +8,35 @@
       "thumbUri": "https://www.manhag.net/images/listening.png"
     },
     {
-      "id": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/001.mp3",
+      "id": "https://radio.manhag.net/radio/8010/radio.mp3",
       "album": "راديو صوت الإسلام",
-      "title": "سورة الفاتحة",
-      "artist": "راديو صوت الإسلام",
-      "artUri": "https://www.mp3quran.net/uploads/mpa/lg/maknoon-banner-10.png",
+      "title": "القرآن الكريم",
+      "artist": "القرآن الكريم",
+		"artUri": "https://www.manhag.net/images/listening.png",
       "thumbUri": "https://www.manhag.net/images/listening.png"
     },
     {
-      "id": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/002.mp3",
+      "id": "https://radio.manhag.net/radio/8020/radio.mp3",
       "album": "راديو صوت الإسلام",
-      "title": "سورة البقرة",
-      "artist": "راديو صوت الإسلام",
-      "artUri": "https://www.mp3quran.net/uploads/mpa/lg/maknoon-banner-10.png",
+      "title": "الاناشيد ",
+      "artist": "الاناشيد ",
+		"artUri": "https://www.manhag.net/images/listening.png",
+      "thumbUri": "https://www.manhag.net/images/listening.png"
+    },
+    {
+      "id": "https://radio.manhag.net/radio/8030/radio.mp3",
+      "album": "راديو صوت الإسلام",
+      "title": "الرقية الشرعية ",
+      "artist": "الرقية الشرعية ",
+		"artUri": "https://www.manhag.net/images/listening.png",
+      "thumbUri": "https://www.manhag.net/images/listening.png"
+    },
+    {
+      "id": "https://radio.manhag.net/radio/8050/radio.mp3",
+      "album": "راديو صوت الإسلام",
+      "title": " تفسير الشعراوي",
+      "artist": " تفسير الشعراوي",
+		"artUri": "https://www.manhag.net/images/listening.png",
       "thumbUri": "https://www.manhag.net/images/listening.png"
     }
 ]
