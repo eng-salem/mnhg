@@ -1,14 +1,14 @@
 [
     {
-      "id": "https://radio.manhag.net/radio/8000/radio.mp3",
+      "id": "https://eu8.fastcast4u.com/proxy/manhagnet/1",
       "album": "راديو صوت الإسلام",
       "title": "راديو صوت الإسلام",
       "artist": "راديو صوت الإسلام",
       "artUri": "https://www.manhag.net/images/listening.png",
-      "thumbUri": "https://www.manhag.net/images/listening.png"
+      "thumbUri": "https://www.manhag.net/images/quran.png"
     },
     {
-      "id": "https://radio.manhag.net/radio/8010/radio.mp3",
+      "id": "https://eu8.fastcast4u.com/proxy/manhagnet/1",
       "album": "راديو صوت الإسلام",
       "title": "القرآن الكريم",
       "artist": "القرآن الكريم",
@@ -16,23 +16,15 @@
       "thumbUri": "https://www.manhag.net/images/listening.png"
     },
     {
-      "id": "https://radio.manhag.net/radio/8020/radio.mp3",
-      "album": "راديو صوت الإسلام",
-      "title": "الاناشيد ",
-      "artist": "الاناشيد ",
-		"artUri": "https://www.mp3quran.net/uploads/mpa/lg/maknoon-banner-10.png",
-      "thumbUri": "https://www.manhag.net/images/listening.png"
-    },
-    {
-      "id": "https://radio.manhag.net/radio/8030/radio.mp3",
+      "id": "https://eu8.fastcast4u.com/proxy/roqia/1",
       "album": "راديو صوت الإسلام",
       "title": "الرقية الشرعية ",
       "artist": "الرقية الشرعية ",
 		"artUri": "https://www.manhag.net/images/listening.png",
-      "thumbUri": "https://www.manhag.net/images/listening.png"
+      "thumbUri": "https://www.manhag.net/images/roqia.jpg"
     },
     {
-      "id": "https://radio.manhag.net/radio/8050/radio.mp3",
+      "id": "https://eu8.fastcast4u.com/proxy/manhagnet/1",
       "album": "راديو صوت الإسلام",
       "title": " تفسير الشعراوي",
       "artist": " تفسير الشعراوي",
