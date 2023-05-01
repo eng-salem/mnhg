@@ -4,31 +4,47 @@
       "album": "راديو صوت الإسلام",
       "title": "راديو صوت الإسلام",
       "artist": "راديو صوت الإسلام",
-      "artUri": "https://www.manhag.net/images/listening.png",
+      "artUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/quran-banner.png?raw=true",
       "thumbUri": "https://www.manhag.net/images/quran.png"
     },
     {
-      "id": "https://eu8.fastcast4u.com/proxy/manhagnet/1",
-      "album": "راديو صوت الإسلام",
-      "title": "القرآن الكريم",
+      "id": "https://stream.radiojar.com/8s5u5tpdtwzuv?rj-ttl=5&rj-tok=AAABh6io4xYAxQtf87_bxisssw",
+      "album": "القرآن الكريم من القاهرة",
+      "title": "القرآن الكريم من القاهرة",
       "artist": "القرآن الكريم",
-		"artUri": "https://www.manhag.net/images/listening.png",
-      "thumbUri": "https://www.manhag.net/images/listening.png"
+		"artUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/quran-cairo-banner.png?raw=true",
+      "thumbUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/quran-cairo.png?raw=true"
     },
     {
       "id": "https://eu8.fastcast4u.com/proxy/roqia/1",
       "album": "راديو صوت الإسلام",
       "title": "الرقية الشرعية ",
       "artist": "الرقية الشرعية ",
-		"artUri": "https://www.manhag.net/images/listening.png",
+		"artUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/roqia-banner.png?raw=true",
       "thumbUri": "https://www.manhag.net/images/roqia.jpg"
     },
     {
-      "id": "https://eu8.fastcast4u.com/proxy/manhagnet/1",
-      "album": "راديو صوت الإسلام",
+      "id": "http://3vh.liveradiu.com:8000/el-shaarawy.mp3",
+      "album": " تفسير الشعراوي",
       "title": " تفسير الشعراوي",
       "artist": " تفسير الشعراوي",
-		"artUri": "https://www.manhag.net/images/listening.png",
-      "thumbUri": "https://www.manhag.net/images/listening.png"
+      "artUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/sha3rawy-banner.png?raw=true",
+      "thumbUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/sha3rawy.png?raw=true"
+    },
+    {
+      "id": "https://stream.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABh6iufIsAF_sz0bpL3iGGKA",
+      "album": "اذاعة القران الكريم السعودية",
+      "title": "اذاعة القران الكريم السعودية",
+      "artist": "القرآن الكريم",
+		"artUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/quran-sa-banner.png?raw=true",
+      "thumbUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/quran-sa.png?raw=true"
+    },
+    {
+      "id": "http://r1.tarat.com:8196/stream?type=http&nocache=238",
+      "album": "راديو قناة المجد للقران الكريم",
+      "title": "راديو قناة المجد للقران الكريم",
+      "artist": "القرآن الكريم",
+		"artUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/quran-almajd-banner.png?raw=true",
+      "thumbUri": "https://github.com/eng-salem/mnhg/blob/main/radio/images/quran-almajd.png?raw=true"
     }
 ]
